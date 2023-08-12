@@ -1,0 +1,146 @@
+html,body{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    font-family: 'Product Sans Infanity', sans-serif;
+                                                
+                                                
+}
+*{
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main{
+    display: flex;
+    width: 100%;
+    margin: 10%
+}
+
+.gradient {
+    background-image: linear-gradient(to right, green, blue, brown,red,orange,yellow);
+    height: 2px;
+    width: 90px;
+    margin-top: 30px;
+}
+
+.right{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.digital{
+    border: 1px solid gray;
+    height: 25vh;
+    display: flex;
+    flex-direction: column;
+    transition: 0.3s;
+}
+
+.digital:hover{
+    transform: scale(1.2);
+    border: none;
+    background-color: blueviolet;
+}
+
+.digital:hover h3{
+    color: white;
+}
+
+.design {
+    border-top: 1px solid gray;
+    border-right: 1px solid gray;
+    height: 25vh;
+    display: flex;
+    flex-direction: column;
+    transition: 0.3s;
+}
+
+.design:hover{
+    transform: scale(1.2);
+    border: none;
+    background-color: rgb(28, 96, 128);    
+}
+
+.design:hover h3{
+    color: white;
+}
+
+.cyberSecurity{
+    border-left: 1px solid gray;
+    border-bottom: 1px solid gray;
+    height: 25vh;
+    display: flex;
+    flex-direction: column;
+    transition: 0.3s;
+}
+
+.cyberSecurity:hover{
+    transform: scale(1.2);
+    border: none;
+    background-color: orange;    
+}
+
+.cyberSecurity:hover h3 {
+    color: white;
+}
+
+.programming{
+    border: 1px solid gray;
+    height: 25vh;
+    display: flex;
+    flex-direction: column;
+    transition: 0.3s;
+}
+
+.programming:hover{
+    transform: scale(1.2);
+    border: none;
+    background-color: green;    
+}
+
+.programming:hover h3 {
+    color: white;
+}
+
+i{
+    font-size: 50px;
+    margin: 10px;
+}
+
+
+.description{
+    text-align: start;
+    font-weight: 300;
+    font-size: 20px;
+    margin-top: 40px;
+    margin-right: 20px;
+}
+
+.right h3{
+    justify-self: flex-end;
+    margin-top: 50px;
+    margin-left: 10px;
+}
+
+
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
